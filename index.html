@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bookmark system</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!---
+    <div class="w-75 mx-auto py-3">
+
+        <h3 class="fw-bolder my-2">Product Managment System</h3>
+
+        <label for="productNameInput">ProductName :</label>
+        <input type="text" class="form-control mb-3" id="productNameInput">
+
+        <label for="ProductPriceInput">ProductPrice :</label>
+        <input type="number" class="form-control mb-3" id="productPriceInput">
+
+    </div>
+    --->
+
+    <div class="container">
+        <div class="row p-4">
+            <div class="col-12">
+                <div class="logo p-4">
+                    <h1 class="">Bookmarker</h1>
+                </div>
+            </div>
+            <div class="col-12  p-3 border-bottom border-top ">
+                <div class="p-5 text-center formItem ">
+                    <h3>Bookmark your favorite sites</h3>
+                    <label for="bookmarkName" class="  form-label fw-bold">Site Name</label>
+                    <input type="text" placeholder="Bookmark Name" class="form-control mb-3" id="bookmarkName">
+                    <div id="requiredName"></div>
+                    <!--<p class="border-1 p-2 textrequ >Name is required</p>-->
+
+                    <label for="siteURL" class="  form-label fw-bold ">Site URL</label>
+                    <input type="text" placeholder="Website URL" class="form-control mb-3" id="siteURL">
+                    <div id="requiredUrl"></div>
+                    <!-- <p class="border-1 p-2 textrequ ">Url Field is required</p>-->
+
+                    <button onclick=" addBookmark();" class="btn " id="btnSubmit">submit</button>
+                </div>
+
+
+                <div id="tableBody">
+
+                </div>
+                <!--  <div class="col-12 p-5 mt-4 d-flex boxdisplay" >
+                    <h4 class="px-5">youtube</h4>
+
+        <a href="${contenerBookmark[i].urlside}" target="_blank"><button onclick="" class=" btnVis btn mx-2" id="btnVisit">Visit</button></a>
+                    <button onclick="" class=" btnVis btn mx-2" id="btnVisit">Visit</button>
+                    <button onclick="" class=" btnRemov btn" id="btnDelete">Delete</button>
+                </div>
+            </div>-->
+            </div>
+            <p class="Copyrights">© 2019 Bookmarker Inc.</p>
+        </div>
+
+
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+</body>
+
+</html>
